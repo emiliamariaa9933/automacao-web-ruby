@@ -32,7 +32,7 @@ end
     @dados_pessoais[15] = emailadicional
   end
   
-  Então("eu realizo o preenchimento de todos os campos") do
+  Então("eu realizo o preenchimento de todos os camposs") do
     @cadastro.cadastrar(@dados_pessoais)
     sleep(30)
    end
